@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ari Novais - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <button id="toggle-mode" aria-label="Alternar modo escuro">
+        <span class="moon-icon"></span>
+    </button>
+
+    <header>
+        <div class="header-content">
+            <h1 id="glitch-text">Azzy's Portfolio</h1>
+            <p class="tagline">Python developer | Linux enthusiast | Designer | Dreamer</p>
+            <img src="/minha-foto.jpg" class="minha-foto" alt="Foto de Perfil">
+        </div>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <h2>Sobre Mim</h2>
+            <p>Heya, I am called Azzy, but you can call me Float, I am a Python intermediare-beginner developer and a designer, specially a dreamer one, I do an bit of bash script</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Design Projects</h2>
+            <div class="projetos-grid">
+                <div class="projeto">
+                    <div class="screenshot" style="background-image: url('/screenshot-project1.png');"></div>
+                    <div class="projeto-info">
+                        <h3>Material UI Icons</h3>
+                        <p>A Material/Flat UI meant to be used in KDE, using OneUI, Papirus, and Evanc's Xiaomi's Healing Town as inspiration.</p>
+                        <a href="https://github.com/azzynovais/Material-UI-Icons/tree/main" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projeto">
+                    <div class="screenshot" style="background-image: url('/screenshot-project3.png');"></div>
+                    <div class="projeto-info">
+                        <h3>Big Flat Remix UI</h3>
+                        <p>An what if BigLinux used Flat Remix as their main branding theming on the operating system based on Manjaro, or the Better Manjaro.</p>
+                        <a href="https://github.com/azzynovais/Big-Flat-Remix-Concept-UI" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="projeto">
+                    <div class="screenshot" style="background-image: url('/screenshot-project2.png');"></div>
+                    <div class="projeto-info">
+                        <h3>Big Fluent UI</h3>
+                        <p>An another what if BigLinux returned to use Fluent UI from vinceluice as their main branding for the operational system, that was used in 2023 to 2024 before being switched by an Adwaita feeling</p>
+                        <a href="https://github.com/azzynovais/big-fluent-concept-ui" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contact Me!</h2>
+            <p>To talk with me, please send a email to:</p>
+            <p><a href="mailto:floatingfloatskies@protonmail.com" class="btn">floatingfloatskies@protonmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Azzy Novais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
