@@ -1,20 +1,20 @@
 :root {
-    --primary-light: #0078D7;
-    --primary-variant-light: #62A0EA;
-    --secondary-light: #FF5722;
+    --primary-light: #008cff;
+    --primary-variant-light: #0073ff;
+    --secondary-light: rgb(255, 110, 110);
     --surface-light: #FFFFFF;
-    --background-light: #F6F5F4;
+    --background-light: #ffffff;
     --on-primary-light: #FFFFFF;
-    --on-surface-light: #3D3846;
-    --on-background-light: #3D3846;
+    --on-surface-light: #383c46;
+    --on-background-light: #383f46;
     --shadow-light: rgba(0, 0, 0, 0.1);
     --header-bg-light: rgba(0, 0, 0, 0.4);
     
-    --primary-dark: #26A269;
-    --primary-variant-dark: #33D17A;
-    --secondary-dark: #FF7043;
-    --surface-dark: #3D3846;
-    --background-dark: #242424;
+    --primary-dark: #1dd17d;
+    --primary-variant-dark: #1ff57f;
+    --secondary-dark: #ff5e5e;
+    --surface-dark: #383e46;
+    --background-dark: #3d4247;
     --on-primary-dark: #FFFFFF;
     --on-surface-dark: #F6F5F4;
     --on-background-dark: #F6F5F4;
