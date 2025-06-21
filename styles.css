@@ -1,21 +1,21 @@
         /* CSS Variables */
         :root {
-            --primary-light: #4dacfa;
-            --primary-variant-light: #78b5ff;
-            --secondary-light: #ff5959;
-            --surface-light: #fff2ab;
-            --background-light: #feffaa;
-            --on-primary-light: #fff9bf;
-            --on-surface-light: #2c3e50;
-            --on-background-light: #34495e;
+            --primary-light: #58a0ff;
+            --primary-variant-light: #2487ff;
+            --secondary-light: #fdf900;
+            --surface-light: #f3f3f3;
+            --background-light: #f0f0f0;
+            --on-primary-light: #c9c9c9;
+            --on-surface-light: #1d2630;
+            --on-background-light: #282f36;
             --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
             --header-overlay-light: rgba(0, 0, 0, 0.4);
             
-            --primary-dark: #ff8521;
+            --primary-dark: #2bb609;
             --primary-variant-dark: #09c25c;
-            --secondary-dark: #ff4848;
-            --surface-dark: #1c5338;
-            --background-dark: #143b14;
+            --secondary-dark: #00d346;
+            --surface-dark: #393e3f;
+            --background-dark: #464d4e;
             --on-primary-dark: #ffffff;
             --on-surface-dark: #e1e8ed;
             --on-background-dark: #f6f8fa;
