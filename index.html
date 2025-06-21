@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,85 +8,206 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-</head>
 
 <body class="light-mode">
-    <button id="toggle-mode" aria-label="Alternar modo escuro">
-        <span class="moon-icon"></span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema escuro/claro">
+        <span class="theme-icon">🌙</span>
     </button>
 
-    <header>
+    <header class="header">
         <div class="header-content">
-            <h1 id="glitch-text">Portfolio</h1>
-            <p class="tagline">Programador Front-End e Back-end | Designer | Desenvolvedor de Jogos em Lua</p>
-            <img src="./images/minha-foto.jpg" class="minha-foto" alt="Profile Picture">
+            <h1>Azzy Novais</h1>
+            <p class="tagline">Desenvolvedor Full-Stack | Designer | Game Developer</p>
+            <img src="./images/minha-foto.webp" class="profile-image" alt="Foto de perfil de Azzy Novais" loading="lazy">
         </div>
     </header>
 
-    <main>
-        <section id="Introduction">
-            <h2>Introdução</h2>
-            <p>Heya, sou programador back-end com Python e Javascript e front-end com HTML e CSS, estou há 1 ano e meio
-                aprendendo e trabalhando com programação, tambem faço design e UX/UI, que ainda não sou formado, por
-                agora.</p>
+    <main class="main">
+        <section class="section">
+            <h2>Sobre Mim</h2>
+            <p>
+                Heya! Sou desenvolvedor full-stack com varias experiência em Python, JavaScript, HTML e CSS. 
+                Estou há 1 ano e meio no mundo da programação e design, sempre buscando aprender e criar soluções. 
+                Também trabalho com design e UX/UI, combinando funcionalidade com uma experiência visual atrativa.
+            </p>
         </section>
-        <section id="Introduction">
+
+        <section class="section">
             <h2>Tecnologias</h2>
-            <p>Como mencionado, mexo com Python e Javascript, HTML, CSS, alem de usar Canva e Photopea e GIMP e Inkscape
-                para Design, alem de Figma para prototipação e formulação de websites.</p>
+            <p>
+                <strong>Linguagens:</strong> Python, JavaScript, HTML5, CSS3, Lua<br>
+                <strong>Design:</strong> Figma, Canva, Photopea, GIMP, Inkscape<br>
+                <strong>Ferramentas:</strong> Git, VS Code, Roblox Studio<br>
+                <strong>Especialidades:</strong> Desenvolvimento web responsivo, criação de jogos, design de interfaces
+            </p>
         </section>
-        <section id="Introduction">
+
+        <section class="section">
             <h2>Formação</h2>
-            <p>Estudo no Instituto Federal de Rondônia em um Campus da minha cidade, faço o curso de Tecnico de
-                Informatica, estou no segundo ano do ensino medio</p>
+            <p>
+                Atualmente estou cursando Técnico em Informática no Instituto Federal de Rondônia, 
+                estou no segundo ano do ensino médio. Esta formação me proporciona uma base sólida, alem de mexer com computadores desde os 3 anos,.
+            </p>
         </section>
-        <section id="projetos">
-            <h2>Projects</h2>
-            <div class="projetos-grid">
-                <div class="projeto">
-                    <div class="screenshot" style="background-image: url('./images/screenshot-project7.png');"></div>
-                    <div class="projeto-info">
+
+        <section class="section">
+            <h2>Projetos Web</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-project7.webp');"></div>
+                    <div class="project-info">
                         <h3>Clownfish</h3>
-                        <p>Um MS Paint da Web, que funciona em qualquer dispositivo, ainda está em desenvolvimento.</p>
-                        <a href="https://azzynovais.github.io/clownfish/" target="_blank" class="btn">GitHub's Page</a>
+                        <p>Editor de imagens web responsivo, similar ao MS Paint, compatível com qualquer dispositivo. Projeto em desenvolvimento ativo.</p>
+                        <a href="https://azzynovais.github.io/clownfish/" target="_blank" class="btn" rel="noopener">Ver Projeto</a>
                     </div>
                 </div>
 
-                <div class="projeto">
-                    <div class="screenshot" style="background-image: url('./images/screenshot-project5.png');"></div>
-                    <div class="projeto-info">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-project1.webp');"></div>
+                    <div class="project-info">
+                        <h3>Material Lite UI</h3>
+                        <p>Tema minimalista e moderno para KDE Plasma, inspirado no design da Xiaomi e Samsung OneUI.</p>
+                        <a href="https://github.com/azzynovais/Material-UI" target="_blank" class="btn" rel="noopener">Ver no GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-project5.webp');"></div>
+                    <div class="project-info">
                         <h3>Komputus</h3>
-                        <p>Um projeteo escolar que fiz no campus com alguns professores de matematica.</p>
-                        <a href="https://azzynovais.github.io/komputus/" target="_blank" class="btn">GitHub's Page</a>
+                        <p>Projeto escolar desenvolvido em colaboração com professores de matemática do campus.</p>
+                        <a href="https://azzynovais.github.io/komputus/" target="_blank" class="btn" rel="noopener">Ver Projeto</a>
                     </div>
                 </div>
 
-                <div class="projeto">
-                    <div class="screenshot" style="background-image: url('./images/screenshot-project6.png"></div>
-                    <div class="projeto-info">
-                        <h3>More than 8000s physics</h3>
-                        <p>Uma calculadora e convertora de formulas e elementos da Fisica, como formula do Sorvete,
-                            Sorvetão, Torricheli, e entre outros, e alem de converter tempo, km, e etc.</p>
-                        <a href="https://azzynovais.github.io/morethan8000sphysics/" target="_blank"
-                            class="btn">GitHub's Page</a>
-
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-project6.webp');"></div>
+                    <div class="project-info">
+                        <h3>Physics Calculator</h3>
+                        <p>Calculadora e conversor para fórmulas físicas, incluindo conversões de tempo, distância e outras unidades.</p>
+                        <a href="https://azzynovais.github.io/morethan8000sphysics/" target="_blank" class="btn" rel="noopener">Ver Projeto</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contato">
-            <h2>Para contato</h2>
-            <p>Para falar comigo, mande um email para:</p>
-            <p><a href="mailto:floatingfloatskies@protonmail.com" class="btn">floatingfloatskies@protonmail.com</a></p>
+        <section class="section">
+            <h2>Jogos</h2>
+            <div class="games-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-jogo-2.webp');"></div>
+                    <div class="project-info">
+                        <h3>Arctic Minigames</h3>
+                        <p>Jogo no Roblox com temática natalina/invernal, inspirado no Epic Minigames com diversos mini-jogos.</p>
+                        <a href="https://www.roblox.com/pt/games/8064783382/Snowy-Minigames" target="_blank" class="btn" rel="noopener">Jogar</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-jogo-1.webp');"></div>
+                    <div class="project-info">
+                        <h3>Legendary Minigames</h3>
+                        <p>Projeto comunitário de mini-jogos em desenvolvimento, servindo como ambiente de testes para novas funcionalidades.</p>
+                        <a href="https://www.roblox.com/pt/games/9415581838/LEGENDARY-Minigames-v-Rainbow-Indigo-Build" target="_blank" class="btn" rel="noopener">Jogar</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('./images/screenshot-jogo-3.webp');"></div>
+                    <div class="project-info">
+                        <h3>Flappy Wolf</h3>
+                        <p>Clone do Flappy Bird desenvolvido em Python com PyGame para praticar habilidades de programação de jogos.</p>
+                        <a href="https://github.com/azzynovais/flappy-wolf" target="_blank" class="btn" rel="noopener">Ver Código</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p>Interessado em me chamar pra um projeto ou tem alguma dúvida? Entre em contato comigo!</p>
+                <a href="mailto:floatingfloatskies@protonmail.com" class="btn">floatingfloatskies@protonmail.com</a>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 - Azzy Novais</p>
+    <footer class="footer">
+        <p>&copy; 2025 Azzy Novais - Todos os direitos reservados</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('.theme-icon');
+        const body = document.body;
+        
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        
+        // Apply saved theme
+        if (savedTheme === 'dark') {
+            body.classList.remove('light-mode');
+            body.classList.add('dark-mode');
+            themeIcon.textContent = '☀️';
+        } else {
+            body.classList.remove('dark-mode');
+            body.classList.add('light-mode');
+            themeIcon.textContent = '🌙';
+        }
+        
+        // Theme toggle event listener
+        themeToggle.addEventListener('click', function() {
+            if (body.classList.contains('light-mode')) {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Performance optimization: Lazy loading for project images
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.style.backgroundImage = img.dataset.src;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            
+            // Observe all project images
+            document.querySelectorAll('.project-image[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+        
+        // Add loading states for better UX
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
 </body>
-
 </html>
